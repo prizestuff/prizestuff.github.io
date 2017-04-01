@@ -1,0 +1,255 @@
+/***************** Skins *****************/
+
+/*******************************************************************************\
+								Vista Skin
+\*******************************************************************************/
+.cpc_alertWindow
+{
+	/*border: 2px solid #000000;  this is the border around the alert window */
+	border: 0px;  /* this is the border around the alert window */
+}
+.cpc_titleBar
+{
+	/* title bar settings */
+	color: #ffffff;
+	font: 10px Verdana;
+	border-bottom: 0px; /* the bottom border of your title bar, the border that separates it from the content area */
+	/*padding: 5px;*/
+}
+.cpc_titleBarTable
+{
+  	border-collapse:collapse;
+	width:100%;
+	font-size:9pt;	
+}
+.default_titleBarTr
+{
+	width:100%;
+}
+.cpc_titleBarLeftTd
+{
+	background: url('/CommonPages/Alert/images/cpc/info_top_left.png') no-repeat;
+	width: 10px;
+}
+.cpc_titleBarMiddleTd
+{
+	background:url('/CommonPages/Alert/images/cpc/info_top_middle_title.png') top left repeat-x;
+	vertical-align:middle;
+	color:#ffffff;
+	font-weight:bold;
+	border:0px;
+}
+
+.cpc_titleBarMiddleTdIcon
+{
+	background:url('/CommonPages/Alert/images/cpc/info_top_middle_title.png') top left repeat-x;
+	vertical-align:middle;
+	width:20px;
+	color:#ffffff;
+	font-weight:bold;
+	text-align:right;
+	padding:0;
+}
+
+.cpc_titleBarMiddleTdIcon,.cpc_titleBarMiddleTd,.cpc_titleBarLeftTd,.cpc_titleBar 
+{
+    height:33px; /* if you have an icon, you probably want to set this as the same size or a bit larger than the icon size */
+}
+.cpc_titleBarImage
+{
+	float:left;
+}
+.cpc_titleBarLeftIcon
+{
+	padding-left:5px;
+	font-size:10pt;
+	width:100%;
+}
+.cpc_titleBarRightIcon
+{
+	/* right icon settings */
+	background: url('/CommonPages/Alert/images/closeCPC.png') top left no-repeat;
+	cursor:pointer;
+	width: 20px;
+	height: 26px;
+	border:0;
+}
+.cpc_titleBarRightIcon_Down
+{
+	/* right icon settings */
+	background: url('/CommonPages/Alert/images/closeCPC_down.png') top left no-repeat;
+	cursor:pointer;
+	width: 20px;
+	height: 26px;
+	border:0;
+}
+.cpc_titleBarRightTd
+{
+	background: url('/CommonPages/Alert/images/cpc/info_top_right.png') top left no-repeat;
+	width: 15px;
+	height: 33px; 
+	border:0;
+}
+.cpc_titleBarRightTd_Down
+{
+	background: url('/CommonPages/Alert/images/cpc/info_top_right_down.png') top left no-repeat;
+	width: 15px;
+	height: 33px; 
+	border:0;
+}
+.cpc_ContentTable
+{
+  	border-collapse:collapse;
+	width:100%;
+	height:100%;
+	font-size:9pt;
+}
+.cpc_ContentTr
+{
+}
+.cpc_ContentLeftTd
+{
+	background: url('/CommonPages/Alert/images/cpc/info_middle_left.png') repeat-y;
+	width: 7px;
+}
+.cpc_buttonArea
+{
+	/* the button area, the div that your buttons are placed into */
+	text-align: right; /* if you want you buttons to the left or center of the alert box, change this setting */
+	background: #e7ebef; /* your background color.  the content area background color should be set the same as well */
+	padding-bottom: 5px;
+}
+
+.cpc_ButtonTable
+{
+  	border-collapse:collapse;
+	width:100%;
+	height:100%;
+	font-size:9pt;
+}
+.cpc_ButtonTr
+{
+    
+}
+.cpc_ButtonLeftTd
+{
+	background: url('/CommonPages/Alert/images/cpc/info_middle_left.png') repeat-y;
+	width: 7px;
+}
+.cpc_ContentMiddleTd
+{
+	background:#FFFFFF;
+	vertical-align:top;
+	padding:0px;
+}
+.cpc_ContentMiddleDiv
+{
+	vertical-align:top;
+	display:block;
+	overflow:auto;
+	padding:5px;
+	padding-top:10px;
+	margin:0;
+}
+.cpc_ButtonMiddleTd
+{
+	background: url('/CommonPages/Alert/images/cpc/button_gris.png') repeat-x;
+	vertical-align:middle;
+	padding-top:5px;
+	padding-bottom:2px;
+	text-align:center;
+}
+.cpc_ContentRightTd
+{
+	background: url('/CommonPages/Alert/images/cpc/info_middle_right.png') repeat-y;
+	width: 12px;
+}
+.cpc_ButtonRightTd
+{
+	background: url('/CommonPages/Alert/images/cpc/info_middle_right.png') repeat-y;
+	width: 12px;
+}
+.cpc_contentArea
+{
+	/* the contente area, where the actual message text is shown */
+	color: #000000;
+	font: 14px Verdana;
+	/*overflow: auto;  /* setting this to auto will make scrollbars appear if the message text is too long for the height attribute, assuming you set it */
+	/*padding: 5px;*/
+	background: #FFFFFF; /* your background color.  the button area background color should be set the same as well */
+}
+.cpc_okButton
+{
+	/* ok button settings */
+	background:#0B2476 url('/CPC2/images/btn_middle1.gif') top left repeat-x!important;
+	border:1px solid #0B2476;
+	color:#ffffff;
+	cursor:pointer;
+	height:23px;
+	font-weight:normal;
+	padding:4px 10px 3px 10px ;
+}
+.cpc_okButtonOver
+{
+	/* ok button settings */
+	background:#0B2476 url('/CPC2/images/btn_middle1.gif') top left repeat-x!important;
+	border:1px solid #0B2476;
+	color:#ffffff;
+	cursor:pointer;
+	height:23px;
+	font-weight:normal;
+	padding:4px 10px 3px 10px ;
+}
+.cpc_cancelButton
+{
+	background:#0B2476 url('/CPC2/images/btn_middle1.gif') top left repeat-x!important;
+	border:1px solid #0B2476;
+	color:#ffffff;
+	margin-left:15px;
+	height:23px;
+	cursor:pointer;
+	padding:4px 10px 3px 10px ;
+}
+.cpc_cancelButtonOver
+{
+	background:#0B2476 url('/CPC2/images/btn_middle1.gif') top left repeat-x!important;
+	border:1px solid #0B2476;
+	color:#ffffff;
+	margin-left:15px;
+	height:23px;
+	cursor:pointer;
+	padding:4px 10px 3px 10px ;
+}
+.cpc_BottomArea
+{
+	/* title bar settings */
+	/*border: 1px solid #ff0000;*/ /* the bottom border of your title bar, the border that separates it from the content area */
+	height: 18px; /* if you have an icon, you probably want to set this as the same size or a bit larger than the icon size */
+	/*padding: 5px;*/
+}
+.cpc_BottomTable
+{
+  	border-collapse:collapse;
+	width:100%;
+}
+.cpc_BottomTr
+{
+}
+.cpc_BottomLeftTd
+{
+	background: transparent url('/CommonPages/Alert/images/cpc/info_bottom_left.png') no-repeat;
+	width: 10px;
+	height: 18px;
+}
+.cpc_BottomMiddleTd
+{
+	background: transparent url('/CommonPages/Alert/images/cpc/info_bottom.png') top left repeat-x;
+	height: 18px;
+}
+.cpc_BottomRightTd
+{
+	background: transparent url('/CommonPages/Alert/images/cpc/info_bottom_right.png') no-repeat;
+	width: 16px;
+	height: 18px;
+}
+

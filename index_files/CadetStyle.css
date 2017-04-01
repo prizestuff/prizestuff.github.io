@@ -1,0 +1,339 @@
+
+div.alignRight
+{
+	text-align: right;
+}
+
+
+table.List
+{
+    width: 100%;
+}
+
+table.List td
+{
+    vertical-align: middle;
+}
+
+table.List img
+{
+    border: 1px solid #000000;
+    margin: 10px 0;
+    display: block;
+}
+
+
+table.List tr.Highlighted td
+{
+    background-color: #FFFFCC;
+}
+
+/***************** Classes for CadetCatalog.asp *****************/
+
+   table.catalog {
+    width:100%;
+    border-collapse:collapse;
+    border:1px solid #000000;
+   }
+
+   table.catalog img{
+    border:1px solid #000000;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    display:block;
+   }
+
+   table.catalog td{
+     padding:0 10px;
+     white-space:nowrap;
+     border:1px solid;
+     border-color:#000000 #dddddd;
+     font-weight:bold;
+     font-size:0.8em;
+     font-family:arial;
+   }
+   
+   table.catalog caption{
+     padding:3px 6px;
+     text-align:left;
+     background:#777777;
+     color:#ffffff;
+     font-weight:bold;
+     border:1px solid #000000;
+     font-size:1em;
+     text-decoration:underline;
+   }
+   
+   
+   table.catalog td.content1{
+     border-bottom:1px solid #000000;
+     border-left:1px solid #eeeeee;
+   }
+
+   table.catalog tr.row2 td.content2{
+     border-left:1px solid #000000;
+   }
+   
+   table.catalog tr.row2 td.content3{
+     white-space:normal;
+   }
+
+   table.catalog tr{
+    background:#eeeeee;
+    border:1px solid #cccccc;
+   }
+
+   table.catalog tr.row2{
+    background:#dddddd;
+   }
+
+   table.catalog tr.row2 td{
+    border-right:1px solid #bbbbbb;
+    border-top:1px solid #000000;
+   }
+
+   table.catalog td.tdRight2{
+    background:#dddddd;
+    border-right:1px solid #000000;
+    text-align: center;
+   }
+
+   table.catalog td.tdRight{
+    white-space:normal;
+    border-right:1px solid #000000;
+   }
+
+   table.catalog .tdLeft{
+    border-right:none;
+    border-left:1px solid #000000;
+    text-align: center;
+   }
+
+   table.catalog a{
+     color:#0000ff;
+     font-size:0.9em;
+   }
+
+  table.catalog .tdRight2 img, .tdLeft img{
+     cursor:pointer;
+   }
+
+table.List td a.Catalog{
+  color: #0000FF;
+  font-size: 1em;
+  text-decoration: none;
+}
+
+table.List td a:hover{
+  color: #0000FF;
+  text-decoration: underlined;
+}
+
+div.CatalogItemDescription
+{
+    color: #000000;
+    font-size: 1.2em;
+    font-weight: bold; 
+}
+
+div.CatalogItemRestrictions
+{
+    color: #FF0000;
+    font-size: 1em;
+    font-weight: bold;
+}
+
+table.Catalog tr.Header th, table.Catalog tr.TopHeader th{
+  border:1px solid #000000;
+  padding:0;
+  white-space:nowrap;
+}
+
+
+
+table.Catalog tr.TopHeader th div
+{
+  background:url('/images/LogistikUnicorp/BackTopHeader.gif') top repeat-x #2a4b70;
+  color:#ffffff;
+  border:1px solid;
+  border-color:#2c4d71 #163962 #163962 #2c4d71;
+  cursor:default;
+  padding:2px 5px;
+  font-size:85%;
+  text-align:left;
+  cursor:default;
+}
+
+
+
+table.Catalog tr.Header th div{
+  background:url('/images/logistikunicorp/BackHeader.gif') top repeat-x #6384A6;
+  border:1px solid;
+  border-color:#6586a7 #406890 #406890 #6586a7;
+  display:block;
+  color:#ffffff;
+  white-space:nowrap;
+  padding:2px 5px;
+  font-size:75%;
+  text-align:center;
+  cursor:default;
+}
+
+
+/***************** Classes for CadetWelcome.asp *****************/
+div.welcomeAttention 
+{
+    color: #ffffff;
+    font-size: 1.2em;
+}
+
+div.welcomeMessage 
+{
+    color: #FF0000;
+    font-size: 1em;
+    font-weight: bold;
+}
+
+div.welcomeMessage2
+{
+    color: #0000CC;
+    font-size: 1em;
+    font-weight: bold;
+}
+
+a.Notice
+{
+	background:#000099;
+	width:50%;
+	color:#FFFFFF;
+	padding: 10px;
+	text-decoration: none;
+}
+
+a.Notice:hover
+{
+	background:#CCCCDD;
+	width:50%;
+	color:#000000;
+	padding: 10px;
+	text-decoration: underline;
+	cursor:help;
+	
+}
+
+/***************** Classes for CadetMenu.asp *****************/
+
+body.menu
+{
+    margin:0;
+    background:url('/images/logistikunicorp/MenuBackground.gif') repeat-y;
+    font-family:arial;
+    font-size:100%;
+}
+
+
+td.MainMenu
+{
+    padding: 1px;
+}
+
+td.MainMenu a
+{
+    font-size: 0.75em;
+    color: #ced9e1;
+    display: block;
+    padding: 2px 3px;
+    text-decoration: none;
+    width: 123px;
+}
+
+td.MainMenu a:hover
+{
+    background: #ffffff;
+    color: #000000;
+}
+
+
+td.MainMenu h1 {
+  background:url('/images/logistikunicorp/MenuBackHeader.gif') repeat-y;
+  color:#ffffff;
+  margin:10px 0;
+  padding:0;
+  font-size:0.8em;
+  border-bottom:1px solid #889fb7;
+  border-top:1px solid #294867;
+  width:123px;
+  cursor:default;
+}
+
+td.MainMenu b{
+  display:block;
+  border-bottom:1px solid #294867;
+  border-top:1px solid #889fb7; 
+  padding:2px 5px;
+}
+
+
+
+/***************** Classes for help guide *****************/
+
+a.help:link
+{
+	color: #000080;
+	text-decoration:none;
+	font-variant:small-caps;
+	font-weight:bold;
+	
+}
+
+a.help
+{
+	color: navy;
+	text-decoration:none;
+	font-variant:small-caps;
+	font-weight:bold;
+}
+
+a.help:hover
+{
+	color: rgb(255,153,0);
+	text-decoration:none;
+	font-variant:small-caps;
+	font-weight:bold;
+}
+
+table.help
+{
+	table-border-color-light: rgb(255,102,153);
+	table-border-color-dark: rgb(102,51,153); 
+}
+h1.help, h2.help, h3.help, h4.help, h5.help, h6.help
+{
+	font-family: Arial Rounded MT Bold, Arial, Helvetica;
+}
+h1.help
+{
+	color: rgb(102,51,153);
+}
+h2.help
+{
+	color: navy; 
+}
+h3.help
+{
+	color: rgb(51,153,102); 
+}
+h4.help
+{
+	color: rgb(102,51,153);
+}
+h5.help
+{
+	color: rgb(255,102,153);
+}
+h6.help
+{
+	color: rgb(51,153,102);
+}

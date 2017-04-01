@@ -1,0 +1,255 @@
+/***************** Skins *****************/
+
+/*******************************************************************************\
+								Vista Skin
+\*******************************************************************************/
+.catalogue_alertWindow
+{
+	/*border: 2px solid #000000;  this is the border around the alert window */
+	border: 0px;  /* this is the border around the alert window */
+}
+.catalogue_titleBar
+{
+	/* title bar settings */
+	color: #ffffff;
+	font: 10px Verdana;
+	border-bottom: 0px; /* the bottom border of your title bar, the border that separates it from the content area */
+	/*padding: 5px;*/
+}
+.catalogue_titleBarTable
+{
+  	border-collapse:collapse;
+	width:100%;
+	font-size:9pt;	
+}
+.default_titleBarTr
+{
+	width:100%;
+}
+.catalogue_titleBarLeftTd
+{
+	background: url('/CommonPages/Alert/images/catalogue/info_top_left.png') no-repeat;
+	width: 10px;
+}
+.catalogue_titleBarMiddleTd
+{
+	background:url('/CommonPages/Alert/images/catalogue/info_top_middle_title.png') top left repeat-x;
+	vertical-align:middle;
+	color:#ffffff;
+	font-weight:bold;
+	border:0px;
+}
+
+.catalogue_titleBarMiddleTdIcon
+{
+	background:url('/CommonPages/Alert/images/catalogue/info_top_middle_title.png') top left repeat-x;
+	vertical-align:middle;
+	width:20px;
+	color:#ffffff;
+	font-weight:bold;
+	text-align:right;
+	padding:0;
+}
+
+.catalogue_titleBarMiddleTdIcon,.catalogue_titleBarMiddleTd,.catalogue_titleBarLeftTd,.catalogue_titleBar 
+{
+    height:33px; /* if you have an icon, you probably want to set this as the same size or a bit larger than the icon size */
+}
+.catalogue_titleBarImage
+{
+	float:left;
+}
+.catalogue_titleBarLeftIcon
+{
+	padding-left:5px;
+	font-size:10pt;
+	width:100%;
+}
+.catalogue_titleBarRightIcon
+{
+	/* right icon settings */
+	background: url('/CommonPages/Alert/images/closeCatalogue.png') top left no-repeat;
+	cursor:pointer;
+	width: 20px;
+	height: 26px;
+	border:0;
+}
+.catalogue_titleBarRightIcon_Down
+{
+	/* right icon settings */
+	background: url('/CommonPages/Alert/images/closeCatalogue_down.png') top left no-repeat;
+	cursor:pointer;
+	width: 20px;
+	height: 26px;
+	border:0;
+}
+.catalogue_titleBarRightTd
+{
+	background: url('/CommonPages/Alert/images/catalogue/info_top_right.png') top left no-repeat;
+	width: 15px;
+	height: 33px; 
+	border:0;
+}
+.catalogue_titleBarRightTd_Down
+{
+	background: url('/CommonPages/Alert/images/catalogue/info_top_right_down.png') top left no-repeat;
+	width: 15px;
+	height: 33px; 
+	border:0;
+}
+.catalogue_ContentTable
+{
+  	border-collapse:collapse;
+	width:100%;
+	height:100%;
+	font-size:9pt;
+}
+.catalogue_ContentTr
+{
+}
+.catalogue_ContentLeftTd
+{
+	background: url('/CommonPages/Alert/images/catalogue/info_middle_left.png') repeat-y;
+	width: 7px;
+}
+.catalogue_buttonArea
+{
+	/* the button area, the div that your buttons are placed into */
+	text-align: right; /* if you want you buttons to the left or center of the alert box, change this setting */
+	background: #e7ebef; /* your background color.  the content area background color should be set the same as well */
+	padding-bottom: 5px;
+}
+
+.catalogue_ButtonTable
+{
+  	border-collapse:collapse;
+	width:100%;
+	height:100%;
+	font-size:9pt;
+}
+.catalogue_ButtonTr
+{
+    
+}
+.catalogue_ButtonLeftTd
+{
+	background: url('/CommonPages/Alert/images/catalogue/info_middle_left.png') repeat-y;
+	width: 7px;
+}
+.catalogue_ContentMiddleTd
+{
+	background:#FFFFFF;
+	vertical-align:top;
+	padding:10px 0px 5px 0px;
+}
+.catalogue_ContentMiddleDiv
+{
+	vertical-align:top;
+	display:block;
+	overflow:auto;
+	padding:5px;
+	padding-top:10px;
+	margin:0;
+}
+.catalogue_ButtonMiddleTd
+{
+	background: url('/CommonPages/Alert/images/catalogue/button_gris.png') repeat-x;
+	vertical-align:middle;
+	padding-top:5px;
+	padding-bottom:2px;
+	text-align:center;
+}
+.catalogue_ContentRightTd
+{
+	background: url('/CommonPages/Alert/images/catalogue/info_middle_right.png') repeat-y;
+	width: 12px;
+}
+.catalogue_ButtonRightTd
+{
+	background: url('/CommonPages/Alert/images/catalogue/info_middle_right.png') repeat-y;
+	width: 12px;
+}
+.catalogue_contentArea
+{
+	/* the contente area, where the actual message text is shown */
+	color: #000000;
+	font: 14px Verdana;
+	/*overflow: auto;  /* setting this to auto will make scrollbars appear if the message text is too long for the height attribute, assuming you set it */
+	/*padding: 5px;*/
+	background: #FFFFFF; /* your background color.  the button area background color should be set the same as well */
+}
+.catalogue_okButton
+{
+	/* ok button settings */
+	background:#01887D url('/STM/images/btn_middle1.gif') top left repeat-x!important;
+	border:1px solid #01887D;
+	color:#ffffff;
+	cursor:pointer;
+	height:23px;
+	font-weight:normal;
+	padding:4px 10px 3px 10px ;
+}
+.catalogue_okButtonOver
+{
+	/* ok button settings */
+	background:#01887D url('/STM/images/btn_middle1.gif') top left repeat-x!important;
+	border:1px solid #01887D;
+	color:#ffffff;
+	cursor:pointer;
+	height:23px;
+	font-weight:normal;
+	padding:4px 10px 3px 10px ;
+}
+.catalogue_cancelButton
+{
+	background:#01887D url('/STM/images/btn_middle1.gif') top left repeat-x!important;
+	border:1px solid #01887D;
+	color:#ffffff;
+	margin-left:15px;
+	height:23px;
+	cursor:pointer;
+	padding:4px 10px 3px 10px ;
+}
+.catalogue_cancelButtonOver
+{
+	background:#01887D url('/STM/images/btn_middle1.gif') top left repeat-x!important;
+	border:1px solid #01887D;
+	color:#ffffff;
+	margin-left:15px;
+	height:23px;
+	cursor:pointer;
+	padding:4px 10px 3px 10px ;
+}
+.catalogue_BottomArea
+{
+	/* title bar settings */
+	/*border: 1px solid #ff0000;*/ /* the bottom border of your title bar, the border that separates it from the content area */
+	height: 18px; /* if you have an icon, you probably want to set this as the same size or a bit larger than the icon size */
+	/*padding: 5px;*/
+}
+.catalogue_BottomTable
+{
+  	border-collapse:collapse;
+	width:100%;
+}
+.catalogue_BottomTr
+{
+}
+.catalogue_BottomLeftTd
+{
+	background: transparent url('/CommonPages/Alert/images/catalogue/info_bottom_left.png') no-repeat;
+	width: 10px;
+	height: 18px;
+}
+.catalogue_BottomMiddleTd
+{
+	background: transparent url('/CommonPages/Alert/images/catalogue/info_bottom.png') top left repeat-x;
+	height: 18px;
+}
+.catalogue_BottomRightTd
+{
+	background: transparent url('/CommonPages/Alert/images/catalogue/info_bottom_right.png') no-repeat;
+	width: 16px;
+	height: 18px;
+}
+

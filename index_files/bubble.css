@@ -1,0 +1,280 @@
+div.Bubble hr {	width:70%;}
+table.Bubble, table.Bubble tr th, table.Bubble tr td { padding:0px!important;}
+img.Bubble, table.Bubble { position:absolute; }
+table.Bubble a.Bubble img{
+	width:11px;
+	height:11px;
+	padding:0;
+	margin:0;
+	border:0;
+	vertical-align:middle;
+}
+/** Formattage du boutton Close **/
+table.Bubble a.Bubble {
+	height:11px;
+	font-size:8px;
+	text-decoration: none;
+	vertical-align: top;
+	border:0;
+	margin:1px;
+}
+/*************************************\
+	Définition des Skins de la bulle.
+\*************************************/
+
+/* SKIN STANDARD */
+
+table.Bubble a.Bubble {color:#515100;}
+/*table.Bubble a.Bubble:hover{color:#000000;}*/
+
+table.Bubble td.Top {
+	background:url('images/BubbleTop.png') bottom repeat-x;
+	height:11px;
+}
+table.Bubble td.Bottom {
+	background:url('images/BubbleBottom.png') top repeat-x ;
+	height:15px;
+	padding:0px;
+	margin:0px;
+}
+
+table.Bubble td.Left {
+	background:url('images/BubbleLeft.png') top repeat-y;
+	width:11px;
+	padding:0px;
+	margin:0px;
+}
+table.Bubble td.Right {
+	background:url('images/BubbleRight.png') top repeat-y;
+	width:15px;
+	padding:0px;
+	margin:0px;
+}
+table.Bubble td.TopLeft {
+	background:url('images/BubbleTopLeft.png') bottom no-repeat;
+	height:11px;
+	width:11px;
+	padding:0px;
+	margin:0px;
+}
+table.Bubble td.TopRight {
+	background:url('images/BubbleTopRight.png') bottom no-repeat;
+	height:11px;
+	width:15px;
+	padding:0px;
+	margin:0px;
+}
+table.Bubble td.BottomLeft {
+	background:url('images/BubbleBottomLeft.png') top no-repeat;
+	height:15px;
+	width:11px;
+	padding:0px;
+	margin:0px;
+}
+table.Bubble td.BottomRight {
+	background:url('images/BubbleBottomRight.png') top no-repeat;
+	height:15px;
+	width:15px;
+	padding:0px;
+	margin:0px;
+}
+
+table.Bubble td.Content,table.Bubble td.Close,table.Bubble td.Title, .TextContent  {
+	background:#ffffae;
+	background:url('images/BubbleContent.png');
+	color:#515100;
+	cursor:default;
+	font-size:75%;
+	/*padding-top:5px;*/
+}
+
+table.Bubble td.Title, .TextContent {
+	color:#515100;
+	cursor:default;
+	font-size:12px;
+	text-decoration:underline;
+	font-weight:bold;
+	text-align:left;
+	height:15px;
+	padding:0px;
+	padding-right:15px;
+	margin:0px;
+}
+
+table.Bubble td.Close {
+	cursor:default;
+	text-align:right!important;
+	vertical-align:top!important;
+	height:15px;
+	padding:0px;
+	margin:0px;
+}
+
+
+/* SKIN Pink */
+table.Pink td.Top {background:url('images/BubblePink/BubbleTop.png') bottom repeat-x;}
+table.Pink td.Bottom {background:url('images/BubblePink/BubbleBottom.png') top repeat-x ;}
+table.Pink td.Left {	background:url('images/BubblePink/BubbleLeft.png') top repeat-y;}
+table.Pink td.Right {background:url('images/BubblePink/BubbleRight.png') top repeat-y;}
+table.Pink td.TopLeft {background:url('images/BubblePink/BubbleTopLeft.png') bottom no-repeat;}
+table.Pink td.TopRight {	background:url('images/BubblePink/BubbleTopRight.png') bottom no-repeat;}
+table.Pink td.BottomLeft { background:url('images/BubblePink/BubbleBottomLeft.png') top no-repeat;}
+table.Pink td.BottomRight { background:url('images/BubblePink/BubbleBottomRight.png') top no-repeat;}
+table.Pink td.Content,table.Pink td.Close,table.Pink td h1, table.Pink .TextContent {
+	background:url('images/BubblePink/BubbleContent.png');
+	color:#51000D;
+}
+[if IE] table.Pink td.Content,table.Pink td.Close,table.Pink td.Content table tr td h1, table.Pink .TextContent {
+	background:url('images/BubblePink/BubbleContent.png');
+	color:#51000D;
+}
+/* SKIN Red */
+table.Red td.Top {background:url('images/BubbleRed/BubbleTop.png') bottom repeat-x;}
+table.Red td.Bottom {background:url('images/BubbleRed/BubbleBottom.png') top repeat-x ;}
+table.Red td.Left {	background:url('images/BubbleRed/BubbleLeft.png') top repeat-y;}
+table.Red td.Right {background:url('images/BubbleRed/BubbleRight.png') top repeat-y;}
+table.Red td.TopLeft {background:url('images/BubbleRed/BubbleTopLeft.png') bottom no-repeat;}
+table.Red td.TopRight {	background:url('images/BubbleRed/BubbleTopRight.png') bottom no-repeat;}
+table.Red td.BottomLeft { background:url('images/BubbleRed/BubbleBottomLeft.png') top no-repeat;}
+table.Red td.BottomRight { background:url('images/BubbleRed/BubbleBottomRight.png') top no-repeat;}
+table.Red td.Content,table.Red td.Close,table.Red td h1, table.Red .TextContent {
+	background:url('images/BubbleRed/BubbleContent.png');
+	color:#E0E0E0!important;
+}
+[if IE] table.Red td.Content,table.Red td.Close,table.Red td.Content table tr td h1, table.Red .TextContent {
+	background:url('images/BubbleRed/BubbleContent.png');
+	color:#E0E0E0!important;
+}
+/* SKIN Error */
+
+table.Error a.Bubble {color:#ad1717;margin:0;border:1px solid #c37678;}
+/*table.Error a.Bubble:hover {color:#c37678;margin:1px;border:0;}*/
+table.Error td.Top {background:url('images/BubbleError/BubbleTop.png') bottom repeat-x;}
+table.Error td.Bottom {background:url('images/BubbleError/BubbleBottom.png') top repeat-x ;}
+table.Error td.Left {	background:url('images/BubbleError/BubbleLeft.png') top repeat-y;}
+table.Error td.Right {background:url('images/BubbleError/BubbleRight.png') top repeat-y;}
+table.Error td.TopLeft {background:url('images/BubbleError/BubbleTopLeft.png') bottom no-repeat;}
+table.Error td.TopRight {	background:url('images/BubbleError/BubbleTopRight.png') bottom no-repeat;}
+table.Error td.BottomLeft { background:url('images/BubbleError/BubbleBottomLeft.png') top no-repeat;}
+table.Error td.BottomRight { background:url('images/BubbleError/BubbleBottomRight.png') top no-repeat;}
+table.Error td.Content, table.Error td.Close, table.Error td h1, table.Error .TextContent, table.Error td.Title {
+	background:url('images/BubbleError/BubbleContent.png')!important;
+	color:#AB0A0A!important;
+}
+[if IE] table.Error td.Content, table.Error td.Close, table.Error td.Content table tr td h1, table.Error .TextContent {
+	background:url('images/BubbleError/BubbleContent.png')!important;
+	color:#AB0A0A!important;
+}
+/* SKIN Green */
+table.Green td.Top {background:url('images/BubbleGreen/BubbleTop.png') bottom repeat-x;}
+table.Green td.Bottom {background:url('images/BubbleGreen/BubbleBottom.png') top repeat-x ;}
+table.Green td.Left {	background:url('images/BubbleGreen/BubbleLeft.png') top repeat-y;}
+table.Green td.Right {background:url('images/BubbleGreen/BubbleRight.png') top repeat-y;}
+table.Green td.TopLeft {background:url('images/BubbleGreen/BubbleTopLeft.png') bottom no-repeat;}
+table.Green td.TopRight {	background:url('images/BubbleGreen/BubbleTopRight.png') bottom no-repeat;}
+table.Green td.BottomLeft { background:url('images/BubbleGreen/BubbleBottomLeft.png') top no-repeat;}
+table.Green td.BottomRight { background:url('images/BubbleGreen/BubbleBottomRight.png') top no-repeat;}
+table.Green td.Content,table.Green td.Close,table.Green td h1, table.Green .TextContent, table.Green td.Title {
+	background:url('images/BubbleGreen/BubbleContent.png');
+	color:#006000!important;
+}
+[if IE] table.Green td.Content,table.Green td.Close,table.Green td.Content table tr td h1, table.Green .TextContent {
+	background:url('images/BubbleGreen/BubbleContent.png');
+	color:#006000!important;
+}
+
+
+/* SKIN Grey */
+table.Grey td.Top {background:url('images/BubbleGrey/BubbleTop.png') bottom repeat-x;}
+table.Grey td.Bottom {background:url('images/BubbleGrey/BubbleBottom.png') top repeat-x ;}
+table.Grey td.Left {	background:url('images/BubbleGrey/BubbleLeft.png') top repeat-y;}
+table.Grey td.Right {background:url('images/BubbleGrey/BubbleRight.png') top repeat-y;}
+table.Grey td.TopLeft {background:url('images/BubbleGrey/BubbleTopLeft.png') bottom no-repeat;}
+table.Grey td.TopRight {	background:url('images/BubbleGrey/BubbleTopRight.png') bottom no-repeat;}
+table.Grey td.BottomLeft { background:url('images/BubbleGrey/BubbleBottomLeft.png') top no-repeat;}
+table.Grey td.BottomRight { background:url('images/BubbleGrey/BubbleBottomRight.png') top no-repeat;}
+table.Grey td.Content,table.Grey td.Close, table.Grey .TextContent, table.Grey td h1 {
+	background:url('images/BubbleGrey/BubbleContent.png');
+	color:#555555!important;
+}
+[if IE] table.Grey td.Content,table.Grey td.Close,table.Grey td.Content table tr td h1, table.Grey .TextContent {
+	background:url('images/BubbleGrey/BubbleContent.png');
+	color:#555555!important;
+}
+
+
+/* SKIN Ottawa */
+table.Ottawa td.Top {background:url('images/BubbleOttawa/BubbleTop.png') bottom repeat-x;}
+table.Ottawa td.Bottom {background:url('images/BubbleOttawa/BubbleBottom.png') top repeat-x ;}
+table.Ottawa td.Left {	background:url('images/BubbleOttawa/BubbleLeft.png') top repeat-y;}
+table.Ottawa td.Right {background:url('images/BubbleOttawa/BubbleRight.png') top repeat-y;}
+table.Ottawa td.TopLeft {background:url('images/BubbleOttawa/BubbleTopLeft.png') bottom no-repeat;}
+table.Ottawa td.TopRight {	background:url('images/BubbleOttawa/BubbleTopRight.png') bottom no-repeat;}
+table.Ottawa td.BottomLeft { background:url('images/BubbleOttawa/BubbleBottomLeft.png') top no-repeat;}
+table.Ottawa td.BottomRight { background:url('images/BubbleOttawa/BubbleBottomRight.png') top no-repeat;}
+table.Ottawa td.Content
+{
+	background:#ffffff url('images/BubbleOttawa/BubbleContent.png') bottom left repeat-x;
+	color:#555555!important;
+	padding:15px;
+}
+table.Ottawa td.Close, table.Ottawa .TextContent, table.Ottawa td h1 
+{
+	background:none;
+	color:#005BA4!important;
+}
+
+
+/* SKIN White */
+table.White td.Top{background:url('images/BubbleWhite/BubbleTop.png') bottom repeat-x;}
+table.White td.Bottom{background:url('images/BubbleWhite/BubbleBottom.png') top repeat-x;}
+table.White td.Left{background:url('images/BubbleWhite/BubbleLeft.png') top;}
+table.White td.Right{background:url('images/BubbleWhite/BubbleRight.png') top;}
+table.White td.TopLeft{	background:url('images/BubbleWhite/BubbleTopLeft.png') bottom no-repeat;}
+table.White td.TopRight{background:url('images/BubbleWhite/BubbleTopRight.png') bottom no-repeat;}
+table.White td.BottomLeft{background:url('images/BubbleWhite/BubbleBottomLeft.png') top no-repeat;}
+table.White td.BottomRight{	background:url('images/BubbleWhite/BubbleBottomRight.png') top no-repeat;}
+table.White td.Content, table.White td h1{
+	background:url('images/BubbleWhite/BubbleContent.png') top repeat;
+	color:#000080!important;
+}
+[if IE] table.White td.Content, table.White td.Content table tr td h1{
+	background:url('images/BubbleWhite/BubbleContent.png') top repeat;
+	color:#000080!important;
+}
+
+/* SKIN Parks */
+table.Parks td.Top{background:url('images/BubbleParks/BubbleTop.png') bottom repeat-x;}
+table.Parks td.Bottom{background:url('images/BubbleParks/BubbleBottom.png') top repeat-x;}
+table.Parks td.Left{background:url('images/BubbleParks/BubbleLeft.png') top;}
+table.Parks td.Right{background:url('images/BubbleParks/BubbleRight.png') top;}
+table.Parks td.TopLeft{	background:url('images/BubbleParks/BubbleTopLeft.png') bottom no-repeat;}
+table.Parks td.TopRight{background:url('images/BubbleParks/BubbleTopRight.png') bottom no-repeat;}
+table.Parks td.BottomLeft{background:url('images/BubbleParks/BubbleBottomLeft.png') top no-repeat;}
+table.Parks td.BottomRight{	background:url('images/BubbleParks/BubbleBottomRight.png') top no-repeat;}
+table.Parks td.Content, table.Parks td.Close, table.Parks td h1, table.Parks .TextContent, table.Parks td.Title {
+	background:url('images/BubbleParks/BubbleContent.png') top repeat;
+	color:#000000!important;
+}
+[if IE] table.Parks td.Content, table.Parks td.Content table tr td h1{
+	background:url('images/BubbleParks/BubbleContent.png') top repeat;
+	color:#000000!important;
+}
+
+/* SKIN BlueBorder */
+table.BlueBorder td.Top{background:url('images/BubbleBlueBorder/BubbleTop.png') bottom repeat-x;}
+table.BlueBorder td.Bottom{background:url('images/BubbleBlueBorder/BubbleBottom.png') top repeat-x;}
+table.BlueBorder td.Left{background:url('images/BubbleBlueBorder/BubbleLeft.png') top;}
+table.BlueBorder td.Right{background:url('images/BubbleBlueBorder/BubbleRight.png') top;}
+table.BlueBorder td.TopLeft{	background:url('images/BubbleBlueBorder/BubbleTopLeft.png') bottom no-repeat;}
+table.BlueBorder td.TopRight{background:url('images/BubbleBlueBorder/BubbleTopRight.png') bottom no-repeat;}
+table.BlueBorder td.BottomLeft{background:url('images/BubbleBlueBorder/BubbleBottomLeft.png') top no-repeat;}
+table.BlueBorder td.BottomRight{	background:url('images/BubbleBlueBorder/BubbleBottomRight.png') top no-repeat;}
+table.BlueBorder td.Content,  table.BlueBorder td h1{
+	background:url('images/BubbleBlueBorder/BubbleContent.png') top repeat;
+	color:#000080!important;
+}
+[if IE] table.BlueBorder td.Content,  table.BlueBorder td.Content table tr td h1{
+	background:url('images/BubbleBlueBorder/BubbleContent.png') top repeat;
+	color:#000080!important;
+}
