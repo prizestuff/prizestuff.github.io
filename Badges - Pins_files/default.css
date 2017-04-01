@@ -1,0 +1,270 @@
+.BgColor 
+{
+	background:url(/CommonPages/Alert/bg.png);
+}
+.BgColorIE6
+{
+	background:url(/CommonPages/Alert/bg.gif);
+}
+
+
+/***************** Skins *****************/
+
+/*******************************************************************************\
+								Default Skin
+\*******************************************************************************/
+.default_alertWindow
+{
+	/*border: 2px solid #000000;  this is the border around the alert window */
+	border: 0px;  /* this is the border around the alert window */
+}
+.default_titleBar
+{
+	/* title bar settings */
+	color: #ffffff;
+	font: 10px Verdana;
+	border-bottom: 0px; /* the bottom border of your title bar, the border that separates it from the content area */
+	height: 33px; /* if you have an icon, you probably want to set this as the same size or a bit larger than the icon size */
+	/*padding: 5px;*/
+}
+.default_titleBarTable
+{
+  	border-collapse:collapse;
+	width:100%;
+	font-size:9pt;
+}
+.default_titleBarTr
+{
+}
+.default_titleBarLeftTd
+{
+	background: transparent url('/CommonPages/Alert/images/orange/info_top_left.png') no-repeat;
+	width: 10px;
+	height: 33px;
+}
+.default_titleBarMiddleTd
+{
+	background:url('/CommonPages/Alert/images/orange/info_top_middle.png') top left repeat-x #2a4b70;
+	vertical-align:middle;
+	height: 33px;
+	color:#FFFFFF;
+	font-weight:bold;
+}
+
+.default_titleBarMiddleTdIcon
+{
+	background:url('/CommonPages/Alert/images/orange/info_top_middle.png') top left repeat-x #2a4b70;
+	vertical-align:middle;
+	height: 33px;
+	width:16px;
+	color:#FFFFFF;
+	font-weight:bold;
+	text-align:right;
+}
+
+.default_titleBarImage
+{
+	float:left;
+}
+.default_titleBarLeftIcon
+{
+	/* left icon settings */
+	background: transparent url('/CommonPages/Alert/information.png') no-repeat;
+	padding-left:30px;
+	/*width: 16px;
+	height: 16px;
+    */
+}
+.default_titleBarRightIcon
+{
+	/* right icon settings */
+	background: transparent url('/CommonPages/template/images/msg_error2.gif') no-repeat center right;
+	cursor:pointer;
+	width: 24px;
+	height: 24px; 
+    
+}
+.default_titleBarRightTd
+{
+	background: transparent url('/CommonPages/Alert/images/orange/info_top_right.png') no-repeat;
+	width: 13px;
+	height: 33px; 
+}
+.default_ContentTable
+{
+  	border-collapse:collapse;
+	width:100%;
+	height:100%;
+	font-size:9pt;
+}
+.default_ContentTr
+{
+}
+.default_ContentLeftTd
+{
+	background: url('/CommonPages/Alert/images/orange/info_middle_left.png') repeat-y;
+	width: 1px;
+}
+.default_buttonArea
+{
+	/* the button area, the div that your buttons are placed into */
+	text-align: right; /* if you want you buttons to the left or center of the alert box, change this setting */
+	background: #e7ebef; /* your background color.  the content area background color should be set the same as well */
+	padding-bottom: 5px;
+}
+
+.default_ButtonTable
+{
+  	border-collapse:collapse;
+	width:100%;
+	height:100%;
+	font-size:9pt;
+}
+.default_ButtonTr
+{
+    
+}
+.default_ButtonLeftTd
+{
+	background: url('/CommonPages/Alert/images/orange/info_middle_left.png') repeat-y;
+	width: 1px;
+}
+.default_ContentMiddleTd
+{
+	background:#FFFFFF;
+	vertical-align:middle;
+	padding:10px;
+}
+.default_ContentMiddleDiv
+{
+	background:#FFFFFF;
+	vertical-align:middle;
+	display:block;
+	overflow:auto;
+	/*border:#874800 solid 1px;*/
+	padding:5px;
+}
+.default_ButtonMiddleTd
+{
+	background:#FFFFFF;
+	vertical-align:middle;
+	padding:5px;
+	text-align:center;
+}
+.default_ContentRightTd
+{
+	background: url('/CommonPages/Alert/images/orange/info_middle_right.png') repeat-y;
+	width: 6px;
+}
+.default_ButtonRightTd
+{
+	background: url('/CommonPages/Alert/images/orange/info_middle_right.png') repeat-y;
+	width: 6px;
+}
+.default_contentArea
+{
+	/* the contente area, where the actual message text is shown */
+	color: #000000;
+	font: 14px Verdana;
+	/*overflow: auto;  /* setting this to auto will make scrollbars appear if the message text is too long for the height attribute, assuming you set it */
+	/*padding: 5px;*/
+	background: #FFFFFF; /* your background color.  the button area background color should be set the same as well */
+}
+.default_okButton
+{
+	/* ok button settings */
+	background:url('/CommonPages/Alert/accept.png') no-repeat 2px 5px!important;
+	padding-left: 20px;
+	margin-right: 5px;
+	height: 30px;
+	border:#874800 2px solid;
+	color:#874800;
+	cursor:pointer;
+}
+.default_okButtonOver
+{
+	/* ok button settings */
+	background:url('/CommonPages/Alert/accept.png') no-repeat 2px 5px!important;
+	padding-left: 20px;
+	margin-right: 5px;
+	height: 30px;
+	border:#874800 2px solid;
+	color:#874800;
+	cursor:pointer;
+}
+.default_cancelButton
+{
+	/* cancel button settings, if present */
+	background: url('/CommonPages/Alert/cancel.png')!important;
+	padding-left: 20px;
+	margin-right: 5px;
+	background-repeat: no-repeat!important;
+	background-position: center left!important;
+	height: 30px;
+	border:#874800 2px solid;
+	color:#874800;
+	cursor:pointer;
+}
+.default_cancelButtonOver
+{
+	/* cancel button settings, if present */
+	background: url('/CommonPages/Alert/cancel.png')!important;
+	padding-left: 20px;
+	margin-right: 5px;
+	background-repeat: no-repeat!important;
+	background-position: center left!important;
+	height: 30px;
+	border:#874800 2px solid;
+	color:#874800;
+	cursor:pointer;
+}
+.default_BottomArea
+{
+	/* title bar settings */
+	border-bottom: 0px; /* the bottom border of your title bar, the border that separates it from the content area */
+	height: 18px; /* if you have an icon, you probably want to set this as the same size or a bit larger than the icon size */
+	/* padding: 5px;*/
+}
+.default_BottomTable
+{
+  	border-collapse:collapse;
+	width:100%;
+}
+.default_BottomTr
+{
+}
+.default_BottomLeftTd
+{
+	background: transparent url('/CommonPages/Alert/images/orange/info_bottom_left.png') no-repeat;
+	width: 10px;
+	height: 18px;
+}
+.default_BottomLeftTdSelected
+{
+	background: transparent url('/CommonPages/Alert/images/orange/info_bottom_left_selected.png') no-repeat;
+	width: 10px;
+	height: 18px;
+}
+.default_BottomMiddleTd
+{
+	background:url('/CommonPages/Alert/images/orange/info_bottom.png') top left repeat-x;
+	height: 18px;
+}
+.default_BottomMiddleTdSelected
+{
+	background: transparent url('/CommonPages/Alert/images/orange/info_bottom_selected.png') top left repeat-x;
+	height: 18px;
+}
+.default_BottomRightTd
+{
+	background: transparent url('/CommonPages/Alert/images/orange/info_bottom_right.png') no-repeat;
+	width: 16px;
+	height: 18px;
+}
+.default_BottomRightTdSelected
+{
+	background: transparent url('/CommonPages/Alert/images/orange/info_bottom_right_selected.png') no-repeat;
+	width: 16px;
+	height: 18px;
+}
+

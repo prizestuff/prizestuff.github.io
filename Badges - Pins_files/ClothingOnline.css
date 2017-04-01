@@ -1,0 +1,239 @@
+/***************** Skins *****************/
+
+/*******************************************************************************\
+								Catsa Skin
+\*******************************************************************************/
+
+.Clothing_alertWindow
+{
+	/*border: 2px solid #000000;  this is the border around the alert window */
+	border: 0px;  /* this is the border around the alert window */
+}
+.Clothing_titleBar
+{
+	/* title bar settings */
+	color: #ffffff;
+	font: 10px Verdana;
+	border-bottom: 0px; /* the bottom border of your title bar, the border that separates it from the content area */
+	
+	/*padding: 5px;*/
+}
+.Clothing_titleBarTable
+{
+  	border-collapse:collapse;
+	width:100%;
+	font-size:9pt;	
+}
+.Clothing_titleBarTr
+{
+}
+.Clothing_titleBarLeftTd
+{
+	background: transparent url('/CommonPages/Alert/images/clothing/info_top_left.png') no-repeat;
+	width: 10px;
+}
+.Clothing_titleBarMiddleTd
+{
+	background:url('/CommonPages/Alert/images/clothing/info_top_middle.png') top left repeat-x #a9a9a9;
+	vertical-align:middle;
+	color:#FFFFFF;
+	font-weight:bold;
+}
+
+.Clothing_titleBarMiddleTdIcon
+{
+	background:url('/CommonPages/Alert/images/clothing/info_top_middle.png') top left repeat-x #a9a9a9;
+	vertical-align:middle;
+	width:16px;
+	color:#FFFFFF;
+	font-weight:bold;
+	text-align:right;
+}
+.Clothing_titleBarMiddleTdIcon,.Clothing_titleBarMiddleTd,.Clothing_titleBarLeftTd,.Clothing_titleBar 
+{
+    height:45px; /* if you have an icon, you probably want to set this as the same size or a bit larger than the icon size */
+}
+
+.Clothing_titleBarImage
+{
+	float:left;
+}
+
+.Clothing_titleBarLeftIcon
+{
+	/* left icon settings */
+	background: transparent  no-repeat left;
+	padding-left:30px;
+    /* Text Settings */  
+    height:36px;
+    font-size:24px;
+    color:#303030;
+    text-align:center;
+    padding-top:9px;
+}
+
+.Clothing_titleBarRightIcon
+{
+	/* right icon settings */
+	background: transparent url('/CommonPages/template/images/msg_error2.gif') no-repeat center right;
+	cursor:pointer;
+	width: 24px;
+	height: 24px; 
+    
+}
+.Clothing_titleBarRightTd
+{
+	background: transparent url('/CommonPages/Alert/images/clothing/info_top_right.png') no-repeat;
+	width: 13px;
+	height: 33px; 
+}
+.Clothing_ContentTable
+{
+  	border-collapse:collapse;
+	width:100%;
+	height:100%;
+	font-size:9pt;
+}
+.Clothing_ContentTr
+{
+}
+.Clothing_ContentLeftTd
+{
+	background: url('/CommonPages/Alert/images/clothing/info_middle_left.png') repeat-y;
+	width: 1px;
+}
+.Clothing_buttonArea
+{
+	/* the button area, the div that your buttons are placed into */
+	text-align: right; /* if you want you buttons to the left or center of the alert box, change this setting */
+	background: #e7ebef; /* your background color.  the content area background color should be set the same as well */
+	padding-bottom: 5px;
+}
+
+.Clothing_ButtonTable
+{
+  	border-collapse:collapse;
+	width:100%;
+	height:100%;
+	font-size:9pt;
+}
+.Clothing_ButtonTr
+{
+    
+}
+.Clothing_ButtonLeftTd
+{
+	background: url('/CommonPages/Alert/images/clothing/info_middle_left.png') repeat-y;
+	width: 1px;
+}
+.Clothing_ContentMiddleTd
+{
+	background:#a9a9a9;
+	vertical-align:middle;
+	padding:0px;
+}
+.Clothing_ContentMiddleDiv
+{
+  	background:#E4E7EB url('/CommonPages/template/images/background_body.gif') top left no-repeat;
+	vertical-align:middle;
+	display:block;
+	overflow:auto;
+	border:#000000 solid 1px;
+	padding:5px;
+	margin:0;
+}
+.Clothing_ButtonMiddleTd
+{
+	background:#a9a9a9;
+	vertical-align:middle;
+	padding:5px;
+	text-align:center;
+}
+.Clothing_ContentRightTd
+{
+	background: url('/CommonPages/Alert/images/clothing/info_middle_right.png') repeat-y;
+	width: 6px;
+}
+.Clothing_ButtonRightTd
+{
+	background: url('/CommonPages/Alert/images/clothing/info_middle_right.png') repeat-y ;
+	width: 6px;
+}
+.Clothing_contentArea
+{
+	/* the contente area, where the actual message text is shown */
+	color: #000000;
+	font: 14px Verdana;
+	/*overflow: auto;  /* setting this to auto will make scrollbars appear if the message text is too long for the height attribute, assuming you set it */
+	/*padding: 5px;*/
+	background: #FFFFFF; /* your background color.  the button area background color should be set the same as well */
+}
+.Clothing_okButton
+{
+	/* ok button settings */
+	background: url('/CommonPages/Alert/accept.png') no-repeat center left!important;
+	padding-left: 15px;
+	margin-right: 5px;
+	height: 35px;
+}
+.Clothing_okButtonOver
+{
+	/* ok button settings */
+	background: url('/CommonPages/Alert/accept.png') no-repeat center left!important;
+	padding-left: 15px;
+	margin-right: 5px;
+	height: 35px;
+}
+.Clothing_cancelButton
+{
+	/* cancel button settings, if present */
+	background: url('cancel.png')!important;
+	padding-left: 15px;
+	margin-right: 5px;
+	background-repeat: no-repeat!important;
+	background-position: center left!important;
+	height: 35px;
+}
+.Clothing_cancelButtonOver
+{
+	/* cancel button settings, if present */
+	background: url('cancel.png')!important;
+	padding-left: 15px;
+	margin-right: 5px;
+	background-repeat: no-repeat!important;
+	background-position: center left!important;
+	height: 35px;
+}
+.Clothing_BottomArea
+{
+	/* title bar settings */
+	border-bottom: 0px; /* the bottom border of your title bar, the border that separates it from the content area */
+	height: 18px; /* if you have an icon, you probably want to set this as the same size or a bit larger than the icon size */
+	/*padding: 5px;*/
+}
+.Clothing_BottomTable
+{
+  	border-collapse:collapse;
+	width:100%;
+}
+.Clothing_BottomTr
+{
+}
+.Clothing_BottomLeftTd
+{
+	background: transparent url('/CommonPages/Alert/images/clothing/info_bottom_left.png') no-repeat;
+	width: 10px;
+	height: 18px;
+}
+.Clothing_BottomMiddleTd
+{
+	background:url('/CommonPages/Alert/images/clothing/info_bottom.png') top left repeat-x ;
+	height: 18px;
+}
+.Clothing_BottomRightTd
+{
+	background: transparent url('/CommonPages/Alert/images/clothing/info_bottom_right.png') no-repeat;
+	width: 16px;
+	height: 18px;
+}
+

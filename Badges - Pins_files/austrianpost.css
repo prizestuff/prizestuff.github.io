@@ -1,0 +1,239 @@
+/***************** Skins *****************/
+
+/*******************************************************************************\
+								Austrian Post Skin
+\*******************************************************************************/
+
+.austrianpost_alertWindow
+{
+	/*border: 2px solid #000000;  this is the border around the alert window */
+	border: 0px;  /* this is the border around the alert window */
+}
+.austrianpost_titleBar
+{
+	/* title bar settings */
+	color: #ffffff;
+	font: 10px Verdana;
+	border-bottom: 0px; /* the bottom border of your title bar, the border that separates it from the content area */
+	
+	/*padding: 5px;*/
+}
+.austrianpost_titleBarTable
+{
+  	border-collapse:collapse;
+	width:100%;
+	font-size:9pt;	
+}
+.austrianpost_titleBarTr
+{
+}
+.austrianpost_titleBarLeftTd
+{
+	background: transparent url('/CommonPages/Alert/images/austrianpost/info_top_left.png') no-repeat;
+	width: 10px;
+}
+.austrianpost_titleBarMiddleTd
+{
+	background:url('/CommonPages/Alert/images/austrianpost/info_top_middle.png') top left repeat-x #a9a9a9;
+	vertical-align:middle;
+	color:#FFFFFF;
+	font-weight:bold;
+}
+
+.austrianpost_titleBarMiddleTdIcon
+{
+	background:url('/CommonPages/Alert/images/austrianpost/info_top_middle.png') top left repeat-x #a9a9a9;
+	vertical-align:middle;
+	width:16px;
+	color:#FFFFFF;
+	font-weight:bold;
+}
+.austrianpost_titleBarMiddleTdIcon,.austrianpost_titleBarMiddleTd,.austrianpost_titleBarLeftTd,.austrianpost_titleBar 
+{
+    height:45px; /* if you have an icon, you probably want to set this as the same size or a bit larger than the icon size */
+}
+
+.austrianpost_titleBarImage
+{
+	float:left;
+}
+
+.austrianpost_titleBarLeftIcon
+{
+	/* left icon settings */
+	background: transparent url('/CommonPages/Alert/images/austrianpost/logo.png') no-repeat left;
+	padding-left:30px;
+    /* Text Settings */  
+    height:36px;
+    font-size:24px;
+    color:#303030;
+    text-align:center;
+    padding-top:9px;
+}
+
+.austrianpost_titleBarRightIcon
+{
+	/* right icon settings */
+	background: transparent url('/CommonPages/template/images/msg_error2.gif') no-repeat center right;
+	cursor:pointer;
+	width: 24px;
+	height: 24px; 
+    
+}
+.austrianpost_titleBarRightTd
+{
+	background: transparent url('/CommonPages/Alert/images/austrianpost/info_top_right.png') no-repeat;
+	width: 13px;
+	height: 33px; 
+}
+.austrianpost_ContentTable
+{
+  	border-collapse:collapse;
+	width:100%;
+	height:100%;
+	font-size:9pt;
+}
+.austrianpost_ContentTr
+{
+}
+.austrianpost_ContentLeftTd
+{
+	background: url('/CommonPages/Alert/images/austrianpost/info_middle_left.png') repeat-y;
+	width: 1px;
+}
+.austrianpost_buttonArea
+{
+	/* the button area, the div that your buttons are placed into */
+	text-align: right; /* if you want you buttons to the left or center of the alert box, change this setting */
+	background: #e7ebef; /* your background color.  the content area background color should be set the same as well */
+	padding-bottom: 5px;
+}
+
+.austrianpost_ButtonTable
+{
+  	border-collapse:collapse;
+	width:100%;
+	height:100%;
+	font-size:9pt;
+}
+.austrianpost_ButtonTr
+{
+    
+}
+.austrianpost_ButtonLeftTd
+{
+	background: url('/CommonPages/Alert/images/austrianpost/info_middle_left.png') repeat-y;
+	width: 1px;
+}
+.austrianpost_ContentMiddleTd
+{
+	background:#a9a9a9;
+	vertical-align:middle;
+	padding:0px;
+}
+.austrianpost_ContentMiddleDiv
+{
+  	/*background:url('/images/BodyBg.gif');*/
+    background:#E0E0E0;/* url('/CommonPages/Alert/images/austrianpost/back.png') no-repeat top left;*/
+	vertical-align:middle;
+	display:block;
+	overflow:auto;
+	border:#000000 solid 1px;
+	padding:5px;
+	margin:0;
+}
+.austrianpost_ButtonMiddleTd
+{
+	background:#a9a9a9;
+	vertical-align:middle;
+	padding:5px;
+	text-align:center;
+}
+.austrianpost_ContentRightTd
+{
+	background: url('/CommonPages/Alert/images/austrianpost/info_middle_right.png') repeat-y;
+	width: 6px;
+}
+.austrianpost_ButtonRightTd
+{
+	background: url('/CommonPages/Alert/images/austrianpost/info_middle_right.png') repeat-y ;
+	width: 6px;
+}
+.austrianpost_contentArea
+{
+	/* the contente area, where the actual message text is shown */
+	color: #000000;
+	font: 14px Verdana;
+	/*overflow: auto;  /* setting this to auto will make scrollbars appear if the message text is too long for the height attribute, assuming you set it */
+	/*padding: 5px;*/
+	background: #FFFFFF; /* your background color.  the button area background color should be set the same as well */
+}
+.austrianpost_okButton
+{
+	/* ok button settings */
+	background: url('/CommonPages/Alert/accept.png') no-repeat center left!important;
+	padding-left: 15px;
+	margin-right: 5px;
+	height: 35px;
+}
+.austrianpost_okButtonOver
+{
+	/* ok button settings */
+	background: url('/CommonPages/Alert/accept.png') no-repeat center left!important;
+	padding-left: 15px;
+	margin-right: 5px;
+	height: 35px;
+}
+.austrianpost_cancelButton
+{
+	/* cancel button settings, if present */
+	background: url('/CommonPages/Alert/cancel.png')!important;
+	padding-left: 15px;
+	margin-right: 5px;
+	background-repeat: no-repeat!important;
+	background-position: center left!important;
+	height: 35px;
+}
+.austrianpost_cancelButtonOver
+{
+	/* cancel button settings, if present */
+	background: url('/CommonPages/Alert/cancel.png')!important;
+	padding-left: 15px;
+	margin-right: 5px;
+	background-repeat: no-repeat!important;
+	background-position: center left!important;
+	height: 35px;
+}
+.austrianpost_BottomArea
+{
+	/* title bar settings */
+	border-bottom: 0px; /* the bottom border of your title bar, the border that separates it from the content area */
+	height: 18px; /* if you have an icon, you probably want to set this as the same size or a bit larger than the icon size */
+	/*padding: 5px;*/
+}
+.austrianpost_BottomTable
+{
+  	border-collapse:collapse;
+	width:100%;
+}
+.austrianpost_BottomTr
+{
+}
+.austrianpost_BottomLeftTd
+{
+	background: transparent url('/CommonPages/Alert/images/austrianpost/info_bottom_left.png') no-repeat;
+	width: 10px;
+	height: 18px;
+}
+.austrianpost_BottomMiddleTd
+{
+	background:url('/CommonPages/Alert/images/austrianpost/info_bottom.png') top left repeat-x ;
+	height: 18px;
+}
+.austrianpost_BottomRightTd
+{
+	background: transparent url('/CommonPages/Alert/images/austrianpost/info_bottom_right.png') no-repeat;
+	width: 16px;
+	height: 18px;
+}
+
